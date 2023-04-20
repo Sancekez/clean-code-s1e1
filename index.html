@@ -21,12 +21,12 @@
 
       <main class="main">
          <section class="main__todo-block todo-block">
-            <p id="topSectionForAddingElementToList">
-               <label for="new-task">Add Item</label>
-            </p>
+            <h3 class="todo-block__title">
+               Add Item
+            </h3>
 
-            <div class="task-row-wrapper">
-               <input id="new-task" class="task" type="text" />
+            <div class="todo-block__row">
+               <input id="new-task" class="todo-list__item-input task" type="text" />
                <button class="btn" id="js-add-btn">Add</button>
             </div>
          </section>
@@ -39,7 +39,7 @@
                   <input type="checkbox" />
                   <label class="task">Pay Bills</label>
 
-                  <input type="text" class="task" />
+                  <input type="text" class="todo-list__item-input task" />
                   <button class="btn edit">Edit</button>
 
                   <button class="btn delete">
@@ -51,7 +51,7 @@
                   <input class="todo-list__item-input" type="checkbox" />
                   <label class="todo-list__item-label task">Go Shopping</label>
 
-                  <input type="text" value="Go Shopping" class="task" />
+                  <input type="text" value="Go Shopping" class="todo-list__item-input task" />
                   <button class="btn edit">Save</button>
 
                   <button class="btn delete"><img src="./remove.svg" /></button>
@@ -67,7 +67,7 @@
                   <input class="todo-list__item-checkbox" type="checkbox" checked />
                   <label class="task">See the Doctor</label>
 
-                  <input type="text" class="task" />
+                  <input type="text" class="todo-list__item-input task" />
                   <button class="btn edit">Edit</button>
 
                   <button class="btn delete">

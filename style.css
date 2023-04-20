@@ -38,8 +38,9 @@ body {
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.todo-block__row {
     display: flex;
+    padding-top: 20px;
 }
 
 ul {
@@ -75,8 +76,7 @@ li>* {
     vertical-align: middle;
 }
 
-h3,
-label[for='new-task'] {
+h3 {
     color: #333;
     font-weight: 700;
     font-size: 15px;
